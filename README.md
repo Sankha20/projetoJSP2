@@ -9,8 +9,9 @@ Primeiro trabalho de FW3
 O que você precisa para rodar o programa:
 
 ```
-- Tomcat v9
-- MySql Server v8.0.12
+* JDK 8u171
+* Tomcat v9
+* MySql Server v8.0.12
 ```
 
 ### Instalando
@@ -33,6 +34,7 @@ O que você precisa para rodar o programa:
 
 ## Criado com:
 
+* [JDK 8.171](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Eclipse Oxygen](https://www.eclipse.org/oxygen/)
 * [MySql 8.0.12](https://www.mysql.com/downloads/)
 * [Tomcat v9](https://tomcat.apache.org/download-90.cgi)
