@@ -38,12 +38,9 @@ O que você precisa para rodar o programa:
 * [Tomcat v9](https://tomcat.apache.org/download-90.cgi)
 * [VS Code](https://code.visualstudio.com/)
 
-## Contribuições
-
-## Authors
-
-* **Victor Pontes** - victor.pcs@outlook.com - [Outros projetos (GitHub)](https://github.com/VicttorBruken/)
-
 ## Códigos utilizados
 * [Forms (W3)](https://www.w3schools.com/Css/css_form.asp)
 * [Tables (W3)](https://www.w3schools.com/css/css_table.asp)
+
+## Autor
+* **Victor Pontes** - victor.pcs@outlook.com - [Outros projetos (GitHub)](https://github.com/VicttorBruken/)
