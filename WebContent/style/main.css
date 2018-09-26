@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url("../media/index-bg.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* IDS */
+
+#main-login {
+    height: 100%;
+    width: 480px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "."
+    "form"
+    ".";
+}
+
+p#main-status {
+	text-align: center;
+	color: #f22;
+}
+
+#main-login h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#main-logo {
+    grid-area: title;
+    height: 100%;
+    margin: auto;
+}
+
+#login-form {
+    grid-area: form;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+#login-form fieldset {
+    padding: 1em;
+}
+
+#login-form img {
+    width: 10em;
+    top: -1em;
+    left: calc(50% - 5em);
+    height: 8em;
+    position: relative;
+    margin-left: auto;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#login-form input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-form input[type=submit]:hover {
+    background-color: #45a049;
+}
